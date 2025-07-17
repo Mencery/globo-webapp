@@ -48,3 +48,9 @@ variable "tfe_workspace_name" {
 }
 
 
+variable "playbook_repository" {
+  type        = string
+  description = "(Required) VPC ID of VPC for application deployment."
+}
+
+
